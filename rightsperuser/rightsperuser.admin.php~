@@ -93,7 +93,7 @@ elseif ($a == 'update' && $id > 0)
 {
 	// Updating an existing rule
 	if ($db->query("SELECT COUNT(*) FROM $db_rightsperuser WHERE ru_id = ?",
-			array($id))->fetchColumn() == 0)
+			array($id)) == 0)
 	{
 		cot_error('rightsperuser_notfound');
 	}
