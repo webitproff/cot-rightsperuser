@@ -2,7 +2,7 @@
 /* ====================
 [BEGIN_COT_EXT]
 Hooks=global
-Order=1
+Order=9
 [END_COT_EXT]
 ==================== */
 
